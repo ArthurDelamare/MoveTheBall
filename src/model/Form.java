@@ -19,5 +19,11 @@ public abstract class Form {
 	public void setPosY(int posY) {
 		this.posY = posY;
 	}
+	public int getHeight() {
+		return height;
+	}
+	public int getWidth() {
+		return width;
+	}
 	
 }
