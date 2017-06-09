@@ -16,4 +16,11 @@ public class Ball extends Form{
 		this.height = h;
 	}
 	
+	public void move(int newPosX, int newPosY){
+		this.setPosX(newPosX);
+		this.setPosY(newPosY);
+	}
+	
+	
+	
 }
